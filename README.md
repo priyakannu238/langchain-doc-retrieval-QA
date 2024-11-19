@@ -13,8 +13,6 @@ A modular, scalable system designed for conversational document retrieval and qu
 
 ---
 
----
-
 ## Installation
 
 ### Prerequisites
