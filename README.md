@@ -1,13 +1,13 @@
 # LangChain Document Retrieval and Question-Answering System
 
-A modular, scalable system designed for conversational document retrieval and question-answering. It supports PDF, DOCX, and TXT files, leverages OpenAI embeddings, and uses Chroma vector stores for efficient vector-based search. The project includes a Streamlit-based user interface for seamless document interaction.
+A modular, scalable system designed for conversational document retrieval and question-answering. It supports PDF, DOCX, and TXT files, leverages OpenAI embeddings, and uses Pinecone vector stores for efficient vector-based search. The project includes a Streamlit-based user interface for seamless document interaction.
 
 ---
 
 ## Features
 
 - **Multi-format Document Support**: Load and process PDF, DOCX, and TXT files into embeddings.
-- **Vector Storage**: Efficient document storage using Chroma vector database.
+- **Vector Storage**: Efficient document storage using Pinecone vector database.
 - **Conversational Question-Answering**: Supports memory-based question-answering for interactive conversations.
 - **Streamlit GUI**: User-friendly interface for uploading documents, querying, and retrieving answers.
 
@@ -36,6 +36,7 @@ A modular, scalable system designed for conversational document retrieval and qu
    Create a `.env` file in the `config/` directory and add your OpenAI API key:
    ```
    OPENAI_API_KEY=your_openai_api_key
+   PINECONE_API_KEY=your_pinecone_api_key
    ```
 
 4. **Run the Application**:
@@ -65,7 +66,7 @@ A modular, scalable system designed for conversational document retrieval and qu
 
 - [Streamlit](https://streamlit.io/)
 - [LangChain](https://github.com/hwchase17/langchain)
-- [Chroma](https://www.trychroma.com/)
+- [Pinecone](https://www.tryPinecone.com/)
 - [OpenAI](https://platform.openai.com/)
 - [PyPDF2](https://pypi.org/project/PyPDF2/)
 - [python-docx](https://python-docx.readthedocs.io/)
