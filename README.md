@@ -4,6 +4,12 @@ A modular, scalable system designed for conversational document retrieval and qu
 
 ---
 
+## Interface
+![image](https://github.com/user-attachments/assets/7e1c6a7b-4142-4c07-bb14-e4415ba7bc1b)
+
+![image](https://github.com/user-attachments/assets/412fd2e6-def0-413f-a468-4e848210690d)
+
+
 ## Features
 
 - **Multi-format Document Support**: Load and process PDF, DOCX, and TXT files into embeddings.
